@@ -1,0 +1,105 @@
+.nav-item-spacing {
+    margin-right: 1.625rem; /* Converted 26px to rem for relative scaling */
+}
+
+.logo-spacing {
+    margin-left: 1.5625rem; /* Converted 25px to rem */
+    margin-right: 1.5625rem;
+}
+
+.navbar-collapse.show .nav-link:hover {
+    color: white;
+    text-decoration: none; 
+    background-color: blue;
+}
+
+.navbar-collapse .nav-link:hover {
+    color: blue;
+    text-decoration: none; 
+    background-color: white;
+}
+
+.navbar-collapse {
+    text-align: left;
+}
+
+.nav-link-space {
+    font-size: 1.0625rem; /* Converted 17px to rem */
+    padding: 1.5rem; /* Converted 24px to rem */
+}
+
+.menu-text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.navbar-toggler-icon {
+    background-image: none;
+}
+
+.navbar-toggler::before {
+    content: '☰';
+    font-size: 1.75rem; /* Adjust size as needed */
+    color: #333;
+    font-weight: bold;
+}
+
+.navbar-toggler.toggled::before {
+    content: '✕';
+    font-size: 1.75rem;
+    color: #333;
+}
+
+/* Responsive adjustments for tablets and smaller devices */
+@media (max-width: 992px) {
+    .nav-item-spacing {
+        margin-right: 1rem;
+    }
+
+    .logo-spacing {
+        margin: 0 1rem;
+    }
+
+    .nav-link-space {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    
+    .navbar-toggler {
+        font-size: 1.5rem;
+    }
+}
+
+/* Responsive adjustments for mobile devices */
+@media (max-width: 576px) {
+
+    .logoContainer{
+        width: 70%;
+    }
+    .logos{
+        width: 100%;
+    }
+    .nav-item-spacing {
+        margin-right: 0.1rem;
+    }
+
+    .logo-spacing {
+        margin: 0 0.5rem;
+    }
+
+    .nav-link-space {
+        font-size: 0.875rem;
+        padding: 0.75rem;
+    }
+    
+    .navbar-toggler {
+        font-size: 1.25rem;
+    }
+}

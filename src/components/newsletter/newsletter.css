@@ -1,0 +1,90 @@
+.newsletter-box {
+    background: black;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+.mx-width {
+    max-width: 1240px;
+    display: flex;
+}
+
+.newsletter-box img {
+    width: 50%;
+}
+
+.newsletter-box h2 {
+    margin-bottom: 1.5rem;
+    font-size: 50px;
+}
+
+.form-desc {
+    margin-bottom: 3rem;
+    font-size: 25px;
+}
+
+.tc {
+    font-size: 15px;
+    margin-top: 2rem;
+}
+
+.form {
+    color: white;
+    text-align: left;
+    margin: 3rem 0 0 4rem;
+}
+
+.form input {
+    padding: 1rem;
+    border-radius: 10px;
+    width: 60%;
+    border: none;
+    margin-right: 1rem;
+}
+
+.form button {
+    padding: 1rem;
+    width: 30%;
+    background: #f45c20;
+    color: white;
+    border: navajowhite;
+    border-radius: 10px;
+}
+.form h2{
+    font-family: 'Syne',Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+
+@media only screen and (max-width: 1040px) {
+    .mx-width {
+        margin: 0 5%;
+        flex-direction: column-reverse;
+    }
+
+ 
+
+    .newsletter-box img {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .form {
+        margin: 0 10px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+
+    .newsletter-box h2 {
+        font-size: 30px;
+    }
+
+    .form-desc {
+        font-size: 18px;
+    }
+
+    .tc {
+        font-size: 12px;
+    }
+}

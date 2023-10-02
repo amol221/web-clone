@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700&display=swap');
+
+
+.web-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin-top: 10vh;
+
+}
+
+
+
+.div-webdev{
+    flex: 6.5; 
+    box-sizing: border-box;
+    text-align: left;
+    margin-left: 2rem;
+    width: 100%;
+    height:auto
+}
+
+
+
+.text-div-webdev  {
+    flex: 3.5;  /* proportion of 6 */
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    order: 2;
+}
+
+.image-webdev {
+    max-width: 100%; 
+    height: auto;
+    display: block;
+    margin-left: 0vh;
+    border-radius: 1vh;
+    margin-right: 2vh;
+}
+
+
+
+.headline{
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    font-family:'Syne',Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+
+}
+
+.quote-column-webdev{
+    text-align: left;
+    margin-top: 2.5rem;
+   
+}
+.quote-column-webdev p{
+   font-family: 'DM sans',Arial, Helvetica, sans-serif;
+   font-size: 1.2rem;
+}
+
+.webdev-text{
+    color: blue;
+}
+
+
+
+
+.info-button{
+    text-align: left;
+    
+
+}
+
+.info-btn{
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    background-color:#f45c20;
+    color:white;
+    border-radius: 0.7rem;
+    border: none;
+}
+.info-btn:hover{
+   
+    background-color:#fef7f4;
+    color: #f45c20;
+}
+
+
+/* Responsive for smaller screens */
+
+@media (max-width: 1040px) {
+
+    .web-container {
+        flex-direction: column;
+    }
+
+    .div-webdev, .text-div {
+        width: 100%;
+    }
+    
+    .text-div-webdev {
+        align-items: right;
+   
+    }
+    
+    .div-webdev{
+        order:1;
+    }
+    .text-div-webdev{
+        order:0;
+        margin-left:2rem;
+    }
+
+    .quote-column-webdev, .info-button{
+        text-align: center;
+    }
+
+}
+
+
+@media (max-width: 640px) {
+
+
+    
+
+
+    .div-webdev, .text-div-webdev {
+        width: 100%;
+    }
+    
+  
+    .div-webdev{
+        order:1;
+    }
+    .text-div-webdev{
+        order:0;
+        margin-left:3rem;
+    }
+
+    .quote-column-webdev, .info-button{
+        text-align: left;
+    }
+
+}

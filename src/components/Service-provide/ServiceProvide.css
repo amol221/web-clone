@@ -1,0 +1,58 @@
+.bi-class{
+    margin-bottom: 40px;
+    padding: 3rem;
+    border-radius: 2rem;
+    margin-top: 3rem;
+    
+}
+
+.serviceprovide {
+    margin-top: 3rem;
+}
+.serviceprovide p{
+    font-size: 1.4rem;
+}
+.h3service{
+    margin-top: 5rem;
+}
+.bg-blue{
+    color: blue;
+    background-color: #edf3ff;
+}
+.bg-orange{
+    color:#f45c20;
+    background-color: #fef3ef;
+}
+.bg-green{
+    color:#3dcd5c;
+    background-color:#f1fbf3 ;
+}
+.bg-violet{
+    color:#c13dcd;
+    background-color:#fbf1fb ;
+}
+
+
+
+@media only screen and (max-width: 1040px) {
+
+  
+    .text-center-class {
+        width: 50%;
+       margin-top: 3rem;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .serviceprovide{
+        flex-direction: column;
+    }
+    .text-center-class {
+        width: 100%;
+        padding:0px 50px;
+        margin:7rem 10px 48px 10px;
+    
+
+    }
+   
+}

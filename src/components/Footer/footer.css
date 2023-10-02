@@ -1,0 +1,23 @@
+.footerBox{
+    background: #0256ff;
+    padding: 10%;
+    color: white;
+}
+.fLogo{
+    width: 100%;
+}
+
+
+.footerBtn{
+    padding: 1rem;
+    background: #f45c20;
+    border: none;
+    border-radius: 10px;
+    color: white;
+
+}
+
+.footerBtn:hover{
+    background: white;
+    color: #f45c20;
+}

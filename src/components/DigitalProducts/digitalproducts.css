@@ -1,0 +1,115 @@
+.product-heading {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.product-link {
+    display: block;
+    font-size: 1.2em;
+    margin: 10px 0;
+    text-align: center;
+    transition: color 0.3s;
+  
+}
+
+.label-digi{
+    padding: 0px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.label-digi p{
+    font-family:'Syne';
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.label-digi a{
+    font-family:'DM sans';
+    font-size: 16px;
+  
+}
+
+
+.product-link a{
+    text-decoration:None;
+
+}
+
+.product-link:hover {
+    color: #f45c20;
+}
+
+.productContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.productCard {
+    width: 30%;
+    margin: 20px 1.5%;
+    margin-top: 5rem; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.productData {
+    padding: 1rem;
+    background-color: #f9f9f9;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+}
+
+
+.productDetails {
+    text-align: left; 
+    flex: 9; 
+}
+.pName {
+    margin: 1;
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.productPrice {
+    font-weight: bold;
+    color: #f45c20;
+    flex: 1; 
+    text-align: right; 
+    padding:10px;
+    background-color:#fef7f4;
+    border-radius:5px;
+
+}
+
+
+.productCard:hover {
+    background-color: #007bff;
+    color: white; 
+}
+
+.productCard:hover .productPrice {
+    color: white; 
+}
+
+/* Tablet view */
+@media (max-width: 1040px) {
+    .productCard {
+        width: 45%;
+        margin: 20px 2.5%; 
+    }
+}
+
+/* Mobile view */
+@media (max-width: 480px) {
+    .productCard {
+        width: 90%;
+        margin: 20px 5%;
+    }
+}
